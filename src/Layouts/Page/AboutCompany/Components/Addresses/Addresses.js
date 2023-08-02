@@ -12,6 +12,9 @@ padding: 24px
 const Option2 = styled.div`
 padding: 24px 0px 24px 0px
 `;
+const Option3 = styled.div`
+padding-top: 250px
+`;
 
 function Addresses() {
     return (
@@ -20,8 +23,9 @@ function Addresses() {
             <Option2 className='d-inline-flex flex-column gap-3'>
                 <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement>
                 <ListElement>Санкт-Петербург, Казанская ул, 7</ListElement>
-                <SecondaryButton>Добавить филиал</SecondaryButton>
-            </Option2>
+                </Option2>
+                    <Option3><SecondaryButton className='btn'>Добавить филиал</SecondaryButton></Option3>
+
         </Option>
     );
 }
