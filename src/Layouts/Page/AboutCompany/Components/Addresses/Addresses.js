@@ -13,7 +13,7 @@ const Option2 = styled.div`
 padding: 24px 0px 24px 0px
 `;
 const Option3 = styled.div`
-padding-top: 250px
+padding-top: 178px
 `;
 
 function Addresses() {
